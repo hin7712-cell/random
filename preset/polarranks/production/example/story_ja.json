@@ -1,0 +1,141 @@
+{
+ "source": "%USERPROFILE%/Desktop/snaptik_7671195624213056798_v3.mp4",
+ "language": "ja",
+ "upload_title": {
+  "ja": "笑えるパルクール失敗ランキング😂",
+  "ko": "웃긴 파쿠르 실패 랭킹"
+ },
+ "title": {
+  "line1": [
+   [
+    "笑える",
+    "yellow"
+   ],
+   [
+    "ランキング",
+    "white"
+   ]
+  ],
+  "line2": [
+   [
+    "パルクール",
+    "blue"
+   ],
+   [
+    "失敗集",
+    "white"
+   ]
+  ]
+ },
+ "title_ko": [
+  "웃기는 랭킹",
+  "파쿠르 실패 모음"
+ ],
+ "credit": null,
+ "play_order": [
+  4,
+  3,
+  5,
+  6,
+  2,
+  1
+ ],
+ "ranks": [
+  {
+   "rank": 4,
+   "clip": "C7",
+   "label": "計画通り",
+   "emoji": "😏",
+   "meaning_ko": "계획대로 (데스노트 라이토의 명대사 밈)",
+   "src_in": 28.4,
+   "src_out": 31.7,
+   "impact_s": 30.2,
+   "crop_y": 220,
+   "joke_note_ko": "첫 영상이라 훅 역할. 녹슨 빔에서 미끄러져 바다에 빠지는 장면 위에 데스노트의 씨익 웃는 '계획대로' 밈을 얹어 일본 시청자가 바로 웃는 절제 반어. 사람이 한 말이 아니라 채널 자막."
+  },
+  {
+   "rank": 3,
+   "clip": "C9",
+   "label": "ひっくりカブト",
+   "emoji": "🐞",
+   "meaning_ko": "뒤집힌 장수풍뎅이",
+   "src_in": 35.6,
+   "src_out": 38.7,
+   "impact_s": 37.8,
+   "crop_y": 220,
+   "joke_note_ko": "등으로 떨어져 다리가 위로 향한 모습을 일본 사람이 친숙한 카부토무시(장수풍뎅이)가 뒤집힌 모습에 비유. 윈도 이모지는 무당벌레 🐞(안전)."
+  },
+  {
+   "rank": 5,
+   "clip": "C8",
+   "label": "河童の川流れ",
+   "emoji": "🐸",
+   "meaning_ko": "갓파도 물에 떠내려간다 (능숙한 사람도 실수한다는 속담)",
+   "src_in": 32.2,
+   "src_out": 35.5,
+   "impact_s": 34.9,
+   "crop_y": 220,
+   "joke_note_ko": "물가의 달인 갓파도 떠내려간다는 속담. 기둥을 놓치고 운하에 빠지는 장면과 맞는 비꼬는 속담 개그. 이모지는 개구리로 갓파 분위기."
+  },
+  {
+   "rank": 6,
+   "clip": "C6",
+   "label": "ちょっと散歩",
+   "emoji": "🚶",
+   "meaning_ko": "잠깐 산책",
+   "src_in": 24.1,
+   "src_out": 28.0,
+   "impact_s": 25.6,
+   "crop_y": 220,
+   "joke_note_ko": "크게 구르고도 일어나 그냥 걸어가는 모습에 대한 절제 표현. 보이는 것과 반대의 담담한 톤."
+  },
+  {
+   "rank": 2,
+   "clip": "C4",
+   "label": "布団干し",
+   "emoji": "🌞",
+   "meaning_ko": "이불 널기",
+   "src_in": 13.95,
+   "src_out": 16.85,
+   "impact_s": 15.7,
+   "crop_y": 220,
+   "joke_note_ko": "기둥을 돌아 거꾸로 매달렸다가 납작하게 떨어지는 모습이 이불을 널고 터는 모습 같다는 일본식 생활 비유. 다친 걸 놀리지 않고 모양만 비유."
+  },
+  {
+   "rank": 1,
+   "clip": "C11",
+   "label": "ヘッスラ王",
+   "emoji": "⚾",
+   "meaning_ko": "헤드 슬라이딩 왕",
+   "src_in": 45.4,
+   "src_out": 49.4,
+   "impact_s": 46.9,
+   "crop_y": 220,
+   "joke_note_ko": "수평으로 날아 길게 미끄러진 뒤 일어나는 장면. ヘッスラ(ヘッドスライディング)는 일본 야구 팬이 아는 말로, 칭찬 반전 톤의 마지막 한 방."
+  }
+ ],
+ "vine_boom": [
+  {
+   "rank": 4,
+   "impact_s": 30.2,
+   "reason": "First splash frame in the C7 impact strip (0.1 s step)."
+  },
+  {
+   "rank": 2,
+   "impact_s": 15.7,
+   "reason": "Body hits the pavement in the C4 impact strip."
+  }
+ ],
+ "user_feedback_2026_11_11": [
+  "일본어로 변경(한국어 뜻 별도)",
+  "제목 폰트 100",
+  "순위 바뀌기 전 faaah 효과음",
+  "재생 순서 4-3-5-6-2-1"
+ ],
+ "writer_task": "tasks/writer-ja/66e7122c-ce4e-47eb-9922-6e7115b33f2e",
+ "base_story": "story.json (v2 clips and ranges)",
+ "host_changes": [
+  "rank2 src_out 16.45->16.85 so the faaah before the next rank does not cover the impact boom (he lies ~1.1s after impact)",
+  "vine boom duration 1.15->0.5s (channel also cuts it at ~0.45s, fosJO6N-NMo) to keep it clear of faaah"
+ ]
+}

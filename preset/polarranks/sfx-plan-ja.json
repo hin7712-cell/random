@@ -1,0 +1,26 @@
+{
+ "channel_url": "https://www.youtube.com/@polarranks",
+ "sound_profile": "sound-profile.json",
+ "events": [
+  {
+   "profile_asset_id": "vine_boom",
+   "asset_sha256": "c4dadbc0b9cd21b1313ec11845a00d9401bc208ae0f59f54a0282b8cb89d56c2",
+   "asset_manifest": "sound-analysis/assets/vine-boom-1/4cf1452a471d358b.json",
+   "start": 1.8,
+   "trim_start": 0.086,
+   "duration": 0.5,
+   "gain_db": -3,
+   "reason": "rank 4 impact frame (source 30.2s)"
+  },
+  {
+   "profile_asset_id": "vine_boom",
+   "asset_sha256": "c4dadbc0b9cd21b1313ec11845a00d9401bc208ae0f59f54a0282b8cb89d56c2",
+   "asset_manifest": "sound-analysis/assets/vine-boom-1/4cf1452a471d358b.json",
+   "start": 15.35,
+   "trim_start": 0.086,
+   "duration": 0.5,
+   "gain_db": -3,
+   "reason": "rank 2 impact frame (source 15.7s)"
+  }
+ ]
+}

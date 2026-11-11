@@ -1,0 +1,6 @@
+interface:
+  display_name: "채널 프리셋 빌더"
+  short_description: "채널의 소재·이야기·편집·소리를 분석해 프리셋 확정부터 전용 제작 스킬 완성까지"
+  default_prompt: "$channel-preset-builder 로 이 채널을 분석하고 새 원본에 적용할 제작 프리셋과 시안을 만든 뒤, 피드백을 반영하고 확정되면 전용 스킬로 생성·설치해줘."
+policy:
+  allow_implicit_invocation: true

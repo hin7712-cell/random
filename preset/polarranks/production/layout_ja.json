@@ -1,0 +1,111 @@
+{
+ "basis": "Measured from reference frames 360x640 (JohsrvlOuhA t=5, HSGNOINpHgk t=12, zw6ugKBs3rM t=9, Yd4rZBecs3U t=8) by pixel row brightness and color sampling, scaled x3 to 1080x1920. Fonts are Windows substitutes (reference font unidentified). | layout_ja: user feedback 2026-11-11 - title font 100px (was 58), Japanese text in Yu Gothic Bold; title lines moved to fit the 339px top band.",
+ "measured_640": {
+  "title_line1_y": [
+   63,
+   76
+  ],
+  "title_line2_y": [
+   91,
+   104
+  ],
+  "video_band_y": [
+   113,
+   593
+  ],
+  "list_x_left": 29,
+  "row_y_centers": [
+   205,
+   262,
+   320,
+   378,
+   436,
+   494
+  ],
+  "label_x_left": 47,
+  "credit_y_center": 544,
+  "watermark_y_center": 557
+ },
+ "source_size": [
+  720,
+  1280
+ ],
+ "video_band": {
+  "y0": 339,
+  "y1": 1779
+ },
+ "colors": {
+  "white": [
+   255,
+   255,
+   255
+  ],
+  "yellow": [
+   237,
+   250,
+   21
+  ],
+  "blue": [
+   8,
+   117,
+   233
+  ],
+  "num1": [
+   212,
+   236,
+   44
+  ],
+  "num2": [
+   25,
+   122,
+   199
+  ],
+  "num3": [
+   210,
+   2,
+   38
+  ]
+ },
+ "title": {
+  "font": "C:/Windows/Fonts/YuGothB.ttc",
+  "size": 100,
+  "stroke": 5,
+  "line1_y_center": 158,
+  "line2_y_center": 272
+ },
+ "list": {
+  "x": 87,
+  "row_y_centers": [
+   615,
+   786,
+   960,
+   1134,
+   1308,
+   1482
+  ],
+  "number_font": "C:/Windows/Fonts/Pretendard-Black.ttf",
+  "number_size": 62,
+  "number_stroke": 4,
+  "number_colors": {
+   "1": "num1",
+   "2": "num2",
+   "3": "num3"
+  },
+  "label_font": "C:/Windows/Fonts/YuGothB.ttc",
+  "label_size": 34,
+  "label_stroke": 3,
+  "label_dx": 58,
+  "emoji_font": "C:/Windows/Fonts/seguiemj.ttf",
+  "emoji_size": 34,
+  "emoji_gap": 8
+ },
+ "credit": {
+  "font": "C:/Windows/Fonts/YuGothB.ttc",
+  "size": 28,
+  "stroke": 2,
+  "y_center": 1632
+ },
+ "not_reproduced": [
+  "POLARRANKS watermark (channel brand, not copied)"
+ ]
+}

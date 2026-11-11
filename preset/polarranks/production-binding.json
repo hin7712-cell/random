@@ -1,0 +1,34 @@
+{
+ "scope": "Japanese shuffled-order ranking Short (1080x1920 MP4) from one local compilation video: crop/scale clips, 100px two-line title, top-left rank list with dimmed past labels, channel vine boom, user-confirmed FAAAH before each rank change. Writer step (story.json) is done by a native agent before run; no TTS, no Gemini, no CapCut.",
+ "input_contract": {
+  "files": [
+   "{project}/story.json"
+  ],
+  "schema": "production/snaptik_7671195624213056798/story_ja.json: language ja, upload_title{ja,ko}, title{line1,line2 [[text,color]]}, title_ko, credit|null, play_order, ranks in play order [{rank,label,emoji,meaning_ko,src_in,src_out,impact_s,crop_y}], vine_boom [{rank,impact_s}]",
+  "validated_by_driver": "ranks 1..N (5-7), ends 2->1, not a plain countdown, clip 2.3-7.8s, impact inside clip, label<=10 chars + emoji + meaning_ko, title lines <=9 chars, vine_boom 0-2 and never #1",
+  "source": "local MP4, 720x1280 expected (layout.source_size)"
+ },
+ "command": [
+  "%USERPROFILE%\\Desktop\\휘인\\클로\\쇼치클로\\.venv\\Scripts\\python.exe",
+  "-I",
+  "<repo>/preset/polarranks\\production\\produce_random_ranking.py",
+  "{source}",
+  "{project}",
+  "{scratch}"
+ ],
+ "dependencies": [
+  "%USERPROFILE%\\Desktop\\휘인\\클로\\쇼치클로\\.venv\\Scripts\\python.exe",
+  "<repo>/preset/polarranks\\production\\produce_random_ranking.py",
+  "<repo>/preset/polarranks\\production\\render_ranking.py",
+  "<repo>/preset/polarranks\\production\\mix_user_sfx.py",
+  "<repo>/preset/polarranks\\production\\layout_ja_v2.json",
+  "<repo>/preset/polarranks\\sound-profile.json",
+  "<repo>/preset/polarranks\\sound-analysis\\assets\\vine-boom-1\\4cf1452a471d358b.mp3",
+  "<repo>/preset/polarranks\\sound-analysis\\assets\\faaah\\c2d10b90385d26fa.mp3",
+  "%USERPROFILE%/.claude/skills/channel-preset-builder/bin/cpb.exe",
+  "%USERPROFILE%\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE"
+ ],
+ "outputs": [
+  "preview.mp4"
+ ]
+}

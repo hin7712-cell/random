@@ -1,0 +1,18 @@
+{"source": "%USERPROFILE%/Desktop/snaptik_7671195624213056798_v3.mp4", "duration_s": 62.738,
+ "note": "Host notes from scene detection (ffmpeg scdet) + visual check of clip-sheets and impact-strips. Burned-in source caption 'Moment of Failure' at top will be cropped out. Source creator/credit unknown (snaptik download, no @handle visible).",
+ "clips": [
+  {"id": "C1", "in": 0.0, "out": 4.5, "event": "jumps from stone wall to tall pole, slides down, lands on back in grass", "impact_s": 2.5},
+  {"id": "C2", "in": 4.5, "out": 9.6, "event": "jumps from bridge railing to lamp pole, slides down pole to street (no crash)", "impact_s": null},
+  {"id": "C3", "in": 9.6, "out": 13.933, "event": "jumps off wall top into bushes far below, tumbles", "impact_s": 11.8},
+  {"id": "C4", "in": 13.933, "out": 17.5, "event": "dives at lamp pole, swings around it upside down, slams whole body onto pavement", "impact_s": 15.7},
+  {"id": "C5", "in": 17.5, "out": 23.7, "event": "jumps from walkway to concrete pillar, slides down, crumples beside red bins", "impact_s": 21.3},
+  {"id": "C6", "in": 23.7, "out": 28.033, "event": "leaps off top of stair wall, crash-lands and rolls across tiles, gets up and walks off", "impact_s": 25.6},
+  {"id": "C7", "in": 28.033, "out": 31.733, "event": "jumps from pier block onto rusty beam over sea, slips, splashes into water", "impact_s": 30.2},
+  {"id": "C8", "in": 31.733, "out": 35.533, "event": "jumps from canal wall toward a wooden post, misses, splashes into canal", "impact_s": 34.95},
+  {"id": "C9", "in": 35.533, "out": 39.267, "event": "runs along top of a wall, slips, falls into gap between walls landing on back, legs up", "impact_s": 37.7},
+  {"id": "C10", "in": 39.267, "out": 44.167, "event": "drops from stair tower onto gravel roof, rolls, stands up (mostly success)", "impact_s": 41.4},
+  {"id": "C11", "in": 44.167, "out": 49.433, "event": "jumps off stone pillar, faceplants and slides on pavement in front of bystanders", "impact_s": 46.95},
+  {"id": "C12", "in": 49.433, "out": 54.8, "event": "man slides down a steep glass roof toward camera operator (no fail)", "impact_s": null},
+  {"id": "C13", "in": 54.8, "out": 62.738, "event": "rooftop gap jump, climbs into narrow gap between walls; unclear outcome", "impact_s": null}
+ ],
+ "asr_speech": "Oh / Come on / Oh my god (x many) / I didn't / Go! / Yeah! / Two, one. (unreviewed ASR, speaker unknown)"}

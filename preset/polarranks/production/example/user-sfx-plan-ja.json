@@ -1,0 +1,54 @@
+{
+ "requested_by": "user in chat 2026-11-11",
+ "request": "순위 바뀌기 전에 https://www.myinstants.com/ko/instant/faaah-63455/ 효과음 넣기",
+ "asset": {
+  "file": "sound-analysis/assets/faaah/c2d10b90385d26fa.mp3",
+  "sha256": "c8b03ff0adacaf75b504b46e505f70af70a76d234cedaeb80eef9ee7ef6d909a",
+  "page_url": "https://www.myinstants.com/ko/instant/faaah-63455/",
+  "audio_url": "https://www.myinstants.com/media/sounds/faaah.mp3",
+  "rights_status": "unknown",
+  "audition_status": "not_listened"
+ },
+ "events": [
+  {
+   "start": 2.7,
+   "trim_start": 0.2,
+   "duration": 0.6,
+   "gain_db": 0,
+   "reason": "before rank change at 3.3s (4->3)",
+   "duck_db": -6
+  },
+  {
+   "start": 5.8,
+   "trim_start": 0.2,
+   "duration": 0.6,
+   "gain_db": 0,
+   "reason": "before rank change at 6.4s (3->5)",
+   "duck_db": -6
+  },
+  {
+   "start": 9.1,
+   "trim_start": 0.2,
+   "duration": 0.6,
+   "gain_db": 0,
+   "reason": "before rank change at 9.7s (5->6)",
+   "duck_db": -6
+  },
+  {
+   "start": 13.0,
+   "trim_start": 0.2,
+   "duration": 0.6,
+   "gain_db": 0,
+   "reason": "before rank change at 13.6s (6->2)",
+   "duck_db": -6
+  },
+  {
+   "start": 15.9,
+   "trim_start": 0.2,
+   "duration": 0.6,
+   "gain_db": 0,
+   "reason": "before rank change at 16.5s (2->1)",
+   "duck_db": -6
+  }
+ ]
+}

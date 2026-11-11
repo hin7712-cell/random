@@ -1,0 +1,12 @@
+.venv/
+build/
+__pycache__/
+*.pyc
+.env
+.env.*
+*cookie*
+*쿠키*
+*.mp4
+!vendor/**/*.mp4
+preset/polarranks/.cue-*.json
+preset/polarranks/production-binding.prev.json

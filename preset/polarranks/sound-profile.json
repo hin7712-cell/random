@@ -1,0 +1,345 @@
+{
+ "channel_url": "https://www.youtube.com/@polarranks",
+ "status": "reviewed",
+ "sample_video_ids": [
+  "JohsrvlOuhA",
+  "pC-YhohIz20",
+  "fosJO6N-NMo",
+  "HSQ33Rl3nqA",
+  "GyD9EScGnbQ",
+  "GbDgCzsjvqQ",
+  "t4hPHmGEqco",
+  "HSGNOINpHgk",
+  "Dx_Hc7m8n08",
+  "zw6ugKBs3rM",
+  "Yd4rZBecs3U",
+  "r9xvl94-_z4"
+ ],
+ "reviewed_video_ids": [
+  "JohsrvlOuhA",
+  "pC-YhohIz20",
+  "fosJO6N-NMo",
+  "HSQ33Rl3nqA",
+  "GyD9EScGnbQ",
+  "GbDgCzsjvqQ",
+  "t4hPHmGEqco",
+  "HSGNOINpHgk",
+  "Dx_Hc7m8n08",
+  "zw6ugKBs3rM",
+  "Yd4rZBecs3U",
+  "r9xvl94-_z4"
+ ],
+ "observations": [
+  {
+   "id": "vb01",
+   "video_id": "fosJO6N-NMo",
+   "start": 5.406,
+   "end": 6.406,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "396bbe35602b464760f05c44d0fc361a5a12348b03c41a32352534fcd1bab5e6",
+    "r": 0.995,
+    "gain_vs_file_db": -5.8,
+    "mix_rms_dbfs": -10.2
+   }
+  },
+  {
+   "id": "vb02",
+   "video_id": "GyD9EScGnbQ",
+   "start": 6.273,
+   "end": 7.273,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "18b54b59e97079bbcbda8e4fbe3d8d530354d151f9ab6fa891a7b781e4bf0862",
+    "r": 0.937,
+    "gain_vs_file_db": -0.8,
+    "mix_rms_dbfs": -4.7
+   }
+  },
+  {
+   "id": "vb03",
+   "video_id": "GyD9EScGnbQ",
+   "start": 20.173,
+   "end": 21.173,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "18b54b59e97079bbcbda8e4fbe3d8d530354d151f9ab6fa891a7b781e4bf0862",
+    "r": 0.941,
+    "gain_vs_file_db": -0.4,
+    "mix_rms_dbfs": -4.4
+   }
+  },
+  {
+   "id": "vb04",
+   "video_id": "GbDgCzsjvqQ",
+   "start": 1.14,
+   "end": 2.14,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "2eccd27f00d7045c475e6c95706fedbbddcec00da8616987d4f6519ff7f9a1d5",
+    "r": 0.981,
+    "gain_vs_file_db": -0.9,
+    "mix_rms_dbfs": -5.2
+   }
+  },
+  {
+   "id": "vb05",
+   "video_id": "GbDgCzsjvqQ",
+   "start": 2.24,
+   "end": 3.24,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "2eccd27f00d7045c475e6c95706fedbbddcec00da8616987d4f6519ff7f9a1d5",
+    "r": 0.983,
+    "gain_vs_file_db": -1.3,
+    "mix_rms_dbfs": -5.6
+   }
+  },
+  {
+   "id": "vb06",
+   "video_id": "GbDgCzsjvqQ",
+   "start": 3.006,
+   "end": 4.006,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "2eccd27f00d7045c475e6c95706fedbbddcec00da8616987d4f6519ff7f9a1d5",
+    "r": 0.922,
+    "gain_vs_file_db": -2.9,
+    "mix_rms_dbfs": -6.7
+   }
+  },
+  {
+   "id": "vb07",
+   "video_id": "GbDgCzsjvqQ",
+   "start": 19.34,
+   "end": 20.34,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "2eccd27f00d7045c475e6c95706fedbbddcec00da8616987d4f6519ff7f9a1d5",
+    "r": 0.97,
+    "gain_vs_file_db": -0.7,
+    "mix_rms_dbfs": -4.9
+   }
+  },
+  {
+   "id": "vb08",
+   "video_id": "HSGNOINpHgk",
+   "start": 10.47,
+   "end": 11.47,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "b88a925f79ee64e4b0d37e9d04bdbefdf0a2156fb8c7a9afa74c34dd54622f35",
+    "r": 0.986,
+    "gain_vs_file_db": 0.4,
+    "mix_rms_dbfs": -4.0
+   }
+  },
+  {
+   "id": "vb09",
+   "video_id": "HSGNOINpHgk",
+   "start": 17.703,
+   "end": 18.703,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "b88a925f79ee64e4b0d37e9d04bdbefdf0a2156fb8c7a9afa74c34dd54622f35",
+    "r": 0.988,
+    "gain_vs_file_db": 0.6,
+    "mix_rms_dbfs": -3.8
+   }
+  },
+  {
+   "id": "vb10",
+   "video_id": "zw6ugKBs3rM",
+   "start": 17.812,
+   "end": 18.812,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "7948f46d672326ec1de2d057119c299c7a2b20084446459b24d8533d0b4b51a6",
+    "r": 0.984,
+    "gain_vs_file_db": 0.6,
+    "mix_rms_dbfs": -3.7
+   }
+  },
+  {
+   "id": "vb11",
+   "video_id": "Yd4rZBecs3U",
+   "start": 13.372,
+   "end": 14.372,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "35a15c3fb6877e4a4d65b165fb3edbc36c2e1fd32637d6b77dbc82b2f413a251",
+    "r": 0.913,
+    "gain_vs_file_db": -2.0,
+    "mix_rms_dbfs": -5.7
+   }
+  },
+  {
+   "id": "vb12",
+   "video_id": "r9xvl94-_z4",
+   "start": 9.548,
+   "end": 10.548,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "87852b473a247cb209c6418feae831bb92d71cb996a391c389f6b2fea36f62e1",
+    "r": 0.97,
+    "gain_vs_file_db": -0.4,
+    "mix_rms_dbfs": -4.6
+   }
+  },
+  {
+   "id": "vb13",
+   "video_id": "r9xvl94-_z4",
+   "start": 24.248,
+   "end": 25.248,
+   "role": "impact emphasis on a lower-rank clip (see sfx-context.jpg; synthesizer: never on #1 in sample)",
+   "listening_evidence": {
+    "reviewer": "host agent (Claude Opus 5.5) via code",
+    "method": "waveform normalized cross-correlation vs Myinstants file; NOT listened by ear",
+    "source_sha256": "87852b473a247cb209c6418feae831bb92d71cb996a391c389f6b2fea36f62e1",
+    "r": 0.967,
+    "gain_vs_file_db": -0.7,
+    "mix_rms_dbfs": -4.9
+   }
+  }
+ ],
+ "assets": [
+  {
+   "id": "vine_boom",
+   "name": "VINE BOOM SOUND",
+   "page_url": "https://www.myinstants.com/ko/instant/vine-boom-sound-70972/",
+   "audio_url": "https://www.myinstants.com/media/sounds/vine-boom.mp3",
+   "manifest": "sound-analysis/assets/vine-boom-1/4cf1452a471d358b.json",
+   "file": "sound-analysis/assets/vine-boom-1/4cf1452a471d358b.mp3",
+   "sha256": "c4dadbc0b9cd21b1313ec11845a00d9401bc208ae0f59f54a0282b8cb89d56c2",
+   "duration_s": 1.254943,
+   "observation_ids": [
+    "vb01",
+    "vb02",
+    "vb03",
+    "vb04",
+    "vb05",
+    "vb06",
+    "vb07",
+    "vb08",
+    "vb09",
+    "vb10",
+    "vb11",
+    "vb12",
+    "vb13"
+   ],
+   "match_status": "exact_verified",
+   "comparison_evidence": "sound-analysis/match-vine.json: consecutive 0.25s chunks of this file match 5 reference occurrences at identical lag (r 0.97-0.996); negative controls on 5 non-boom videos and the new source r 0.24-0.74; occurrences scan r>=0.91 in 7/12 videos. Waveform only, not ear-checked.",
+   "rights_status": "unknown",
+   "audition_status": "listened_by_user_2026-11-11 (3 channel samples vs file)"
+  }
+ ],
+ "usage_rules": {
+  "density": "0-4 per video, usually 1-2; 5/12 videos have none",
+  "placement": "impact/scare frame of a lower-rank clip, 1-4.5s after its label; never on #1 or on label pop in sample",
+  "gain_relative_to_voice": "no narration; boom at about -3 to +0.6 dB vs file level (one -5.8), 3-13 dB above preceding clip audio",
+  "reuse_pattern": "same Myinstants vine boom file every time"
+ },
+ "policy": "No shared default sounds. Exact match requires comparison evidence; substitutes need explicit approval.",
+ "unreviewed_video_ids": [
+  "FeN6E6oXhX4 (age-restricted, not collected)"
+ ],
+ "other_candidates": [
+  {
+   "videos": [
+    "pC-YhohIz20@2.6",
+    "GyD9EScGnbQ@8.76"
+   ],
+   "r": 0.853,
+   "status": "unidentified; possibly shared voice clip; not applied"
+  }
+ ],
+ "background_music": "unknown (no cross-video shared music detected outside the boom; not listened)",
+ "user_requested_non_channel_sounds": [
+  {
+   "name": "FAAAH",
+   "page_url": "https://www.myinstants.com/ko/instant/faaah-63455/",
+   "file": "sound-analysis/assets/faaah/c2d10b90385d26fa.mp3",
+   "requested_by": "user in chat 2026-11-11",
+   "request": "순위 바뀌기 전에 faaah 효과음 넣기",
+   "not_a_channel_rule": true,
+   "mixed_by": "production/mix_user_sfx.py",
+   "audition_status": "listened_by_user_2026-11-11"
+  }
+ ],
+ "previous_status": "reviewed_by_waveform_not_listened",
+ "user_listening_review": {
+  "listener": "user (channel owner of this project), in chat 2026-11-11",
+  "answer": "Listened, all OK",
+  "file": "sound-analysis/audition/listen-check.wav",
+  "file_sha256": "75d80f1ccfeb18702e981d89f3d1d2ec9d625a5dc9ec783657ce8b4aa4f24f46",
+  "segments": [
+   {
+    "t": 0.0,
+    "what": "Myinstants VINE BOOM original"
+   },
+   {
+    "t": 2.5,
+    "what": "channel vb01 fosJO6N-NMo 5.4s"
+   },
+   {
+    "t": 5.7,
+    "what": "channel vb08 HSGNOINpHgk 10.47s"
+   },
+   {
+    "t": 8.9,
+    "what": "channel vb12 r9xvl94-_z4 9.55s"
+   },
+   {
+    "t": 12.7,
+    "what": "output rank 4 vine boom"
+   },
+   {
+    "t": 15.7,
+    "what": "output FAAAH before 6->2"
+   },
+   {
+    "t": 18.0,
+    "what": "output rank 2 vine boom"
+   },
+   {
+    "t": 18.6,
+    "what": "output FAAAH before 2->1"
+   },
+   {
+    "t": 20.9,
+    "what": "Myinstants FAAAH original"
+   }
+  ],
+  "host_agent": "did not listen (no audio playback); waveform cross-correlation only"
+ },
+ "excluded_sample_ids": [
+  {
+   "id": "FeN6E6oXhX4",
+   "reason": "age-restricted; YouTube sign-in required; cookies not used by policy; never collected, so no audio analyzed"
+  }
+ ]
+}

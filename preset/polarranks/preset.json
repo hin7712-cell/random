@@ -1,0 +1,970 @@
+{
+ "channel_url": "https://www.youtube.com/@polarranks",
+ "identity": {
+  "schema_version": "0.1",
+  "preset_id": "polarranks-random-ranking-ja",
+  "reference_channel": "https://www.youtube.com/@polarranks",
+  "channel_name": "Polar Ranks",
+  "output_language": "ja",
+  "production_mode": "subtitle (ranking labels, no narration), shuffled rank order",
+  "status": "confirmed_by_user",
+  "evidence_revision": "2026-11-11",
+  "sample_scope": {
+   "catalog_count": 99,
+   "ranking_basis": "public listing rounded view counts; ties unresolved",
+   "selected": [
+    {
+     "id": "JohsrvlOuhA",
+     "title": "Ranking Funniest Trampoline Moments 😂",
+     "views_rounded": 383000000,
+     "role": "popular"
+    },
+    {
+     "id": "pC-YhohIz20",
+     "title": "Ranking Funniest Chicken Scream 💀",
+     "views_rounded": 144000000,
+     "role": "popular"
+    },
+    {
+     "id": "fosJO6N-NMo",
+     "title": "Ranking Funniest Trampoline Park Fails 😭",
+     "views_rounded": 118000000,
+     "role": "popular"
+    },
+    {
+     "id": "FeN6E6oXhX4",
+     "title": "Ranking Worst Stunt Fails 😭",
+     "views_rounded": 113000000,
+     "role": "popular"
+    },
+    {
+     "id": "HSQ33Rl3nqA",
+     "title": "Ranking Best Strong Wind Moments Ever 😭",
+     "views_rounded": 113000000,
+     "role": "popular"
+    },
+    {
+     "id": "GyD9EScGnbQ",
+     "title": "Ranking Satisfying Wasp Nest Removal 😭",
+     "views_rounded": 106000000,
+     "role": "popular"
+    },
+    {
+     "id": "GbDgCzsjvqQ",
+     "title": "Ranking Best Roller Skate Moments Ever 😭",
+     "views_rounded": 83000000,
+     "role": "popular"
+    },
+    {
+     "id": "t4hPHmGEqco",
+     "title": "Ranking Best Trampoline Park Fails 😂",
+     "views_rounded": 74000000,
+     "role": "popular"
+    },
+    {
+     "id": "HSGNOINpHgk",
+     "title": "Ranking Best Skateboard Fails 😭",
+     "views_rounded": 63000000,
+     "role": "popular"
+    },
+    {
+     "id": "Dx_Hc7m8n08",
+     "title": "Ranking Funniest Jumpscare Moments 😂",
+     "views_rounded": 50000000,
+     "role": "popular"
+    },
+    {
+     "id": "zw6ugKBs3rM",
+     "title": "Ranking Craziest Trampoline Moments 😭",
+     "views_rounded": 8200000,
+     "role": "recent"
+    },
+    {
+     "id": "Yd4rZBecs3U",
+     "title": "Ranking Best Lights Off Challenge 😭",
+     "views_rounded": 846000,
+     "role": "recent"
+    },
+    {
+     "id": "r9xvl94-_z4",
+     "title": "Ranking Funniest Ankle Break Moments 😂",
+     "views_rounded": 10000000,
+     "role": "comparison"
+    }
+   ],
+   "not_collected": [
+    {
+     "id": "FeN6E6oXhX4",
+     "reason": "age-restricted; YouTube sign-in required; cookies not used by policy"
+    }
+   ],
+   "note": "popular = top 10 within public listing of 99 videos at collection time (rounded view counts), not verified all-time ranking"
+  },
+  "display_name": "랜덤프리셋",
+  "confirmed_at": "2026-11-11"
+ },
+ "evidence": {
+  "per_video_files": "evidence/<id>/ (sheets, measurements, asr), media/<id>/",
+  "agent_receipts": [
+   {
+    "task": "tasks/observe-1/711caad1-0d8b-4158-a1a8-8917c9bef450.task.json",
+    "role": "observer",
+    "actual_model": "claude-sonnet-5-5",
+    "task_sha256": "14c2b35afc7370b86befd2b8cba7a3d8d2a6441f2d80cba10ac965f06b36c562",
+    "response_sha256": "6a566c0aa19926aa89c43a24d0d9434fbde72fa85ff9cef1f0018a157361ebc6",
+    "receipt_sha256": "96a03eafc4e31a896e12de2c0f206ba77fe465a7a5d46f8b679719fdcb8726a2"
+   },
+   {
+    "task": "tasks/observe-2/05acfe9e-f753-49c0-9dc0-180afcd0c794.task.json",
+    "role": "observer",
+    "actual_model": "claude-sonnet-5-5",
+    "task_sha256": "6c8bc427ff09424f28f9e20c01712650ab2b9cb676d2a00513d387cec4001273",
+    "response_sha256": "2e9e9e3fecfc817bb669854cd037203e9a2ee795f75a2f911e1910f1db64c63f",
+    "receipt_sha256": "6ecb005d9a7f5ac579979ddbdd079232cc6bdb6529230a8c496c29befd02a56e"
+   },
+   {
+    "task": "tasks/observe-3/f8d6b581-1d6a-4979-9596-aee9d00fb89d.task.json",
+    "role": "observer",
+    "actual_model": "claude-sonnet-5-5",
+    "task_sha256": "243c81315fb91148cc66aacdc9a92047ca8c8c8aa48164dd25dfc8fdbb83f586",
+    "response_sha256": "bf9915eac310f6a65209596ef74f11d3dc6cbb64fd2e9b717ee59fb6709698ef",
+    "receipt_sha256": "7597aba908571ff1a48ecb73494f0e8b72fa02bd4f8eab627d06314f4c270ae4"
+   },
+   {
+    "task": "tasks/review/02facb32-be97-47cf-91d5-4bec4ee95045.task.json",
+    "role": "reviewer",
+    "actual_model": "claude-sonnet-5-5",
+    "task_sha256": "40aff602b17771fecaf224fc79356cdb88bcaf7241f3dcda2ea0641f0bc75bd2",
+    "response_sha256": "61d3b03ba877c73b397aded2115b3d45fb25eb0072307963ed77b4eefd71bd34",
+    "receipt_sha256": "d4afef226d7e0045cbddb9d2ee6b3fe84e6a011c8e51b6c451f636f2571729ea"
+   },
+   {
+    "task": "tasks/synthesize/60091bd9-ae47-410f-9817-6265aa3345c3.task.json",
+    "role": "synthesizer",
+    "actual_model": "claude-opus-5-5",
+    "task_sha256": "2687e4f1c0a379b92caa4788f0d84c7049c31cf38ecabbb9690c3e4161a4ada1",
+    "response_sha256": "1cc925a87643db20e981a286e2d0e06983010e9f882a176f8e42739532d4c953",
+    "receipt_sha256": "a7aaa1871670ff340f444dd9c44c4040bb47b762a5ecba623230b0d5b71867bb"
+   },
+   {
+    "task": "tasks/writer/d3c9b48d-d8fa-49ec-92bf-dbfdddfc37ad.task.json",
+    "role": "writer",
+    "actual_model": "claude-sonnet-5-5",
+    "task_sha256": "a7e8e5f657450cbe0ca379641048cb78a318a5ba95181aaf504c7c2c4461fd83",
+    "response_sha256": "8eb92b661446318a1e25e6c98246c6f5ede0523e2add6332ff9f1f94e309cb86",
+    "receipt_sha256": "bc2cfe1c68dbc5e4492858961a1565fcc140fd6c2457f29d7c0c148a197e8979"
+   }
+  ],
+  "sound": "sound-analysis/ (scan.json, wave-verify.json, match-vine.json, vine-boom-occurrences.json)",
+  "layout": "production/layout.json"
+ },
+ "material_policy": [
+  {
+   "rule": "One narrow physical-situation theme per video (trampoline, trampoline park, skate, skateboard, strong wind, wasp nest, chicken scream, jumpscare, lights-off, ankle break). Every clip is a short third-party clip of the same situation.",
+   "basis": "observed",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "pC-YhohIz20",
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GyD9EScGnbQ",
+    "GbDgCzsjvqQ",
+    "t4hPHmGEqco",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "zw6ugKBs3rM",
+    "Yd4rZBecs3U",
+    "r9xvl94-_z4"
+   ],
+   "counterexamples": [
+    "pC-YhohIz20: title says chicken scream, but the ranked clips are mixed falls; the chicken appears only as a reaction cutaway"
+   ]
+  },
+  {
+   "rule": "Each clip has one visible payoff event in 2-5s (fall, launch, collision, scare, fold, theft by wind) that a single word can name.",
+   "basis": "observed",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GyD9EScGnbQ",
+    "GbDgCzsjvqQ",
+    "t4hPHmGEqco",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "zw6ugKBs3rM",
+    "Yd4rZBecs3U",
+    "r9xvl94-_z4"
+   ],
+   "counterexamples": [
+    "pC-YhohIz20 #6 (hand reaching to plank) and #3 (pedal POV) have no clear event in the frames"
+   ]
+  },
+  {
+   "rule": "Use 6 clips (5-7). Total length 22-33s, median about 24.5s.",
+   "basis": "observed",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "pC-YhohIz20",
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GyD9EScGnbQ",
+    "GbDgCzsjvqQ",
+    "t4hPHmGEqco",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "r9xvl94-_z4"
+   ],
+   "counterexamples": [
+    "zw6ugKBs3rM 7 items",
+    "Yd4rZBecs3U 5 items"
+   ]
+  },
+  {
+   "rule": "Harm stays comic: people get up, fall into foam/water/mats, or are startled. No visible serious injury in any ranked clip.",
+   "basis": "inferred",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "fosJO6N-NMo",
+    "t4hPHmGEqco",
+    "HSGNOINpHgk",
+    "zw6ugKBs3rM",
+    "r9xvl94-_z4",
+    "Dx_Hc7m8n08"
+   ],
+   "counterexamples": [
+    "HSGNOINpHgk #4 ends with the skater under a pickup truck (outcome not shown)"
+   ]
+  },
+  {
+   "rule": "Credit the source creators: on-screen @handle above the watermark, or the list in the description.",
+   "basis": "observed",
+   "support_video_ids": [
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GbDgCzsjvqQ",
+    "r9xvl94-_z4",
+    "JohsrvlOuhA",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08"
+   ],
+   "counterexamples": [
+    "pC-YhohIz20, zw6ugKBs3rM, Yd4rZBecs3U, t4hPHmGEqco, GyD9EScGnbQ: no handle seen on screen; descriptions title-only or not reported"
+   ]
+  }
+ ],
+ "story_transformation": {
+  "channel_observed": [
+   {
+    "rule": "Cold open: clip #last plays from t=0 with only the title; the list appears at ~0.94-1.4s with the first label already filled in. The viewer is in the action before any explanation.",
+    "basis": "observed",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "pC-YhohIz20",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GyD9EScGnbQ",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": [
+     "zw6ugKBs3rM: first label at 3.1s"
+    ]
+   },
+   {
+    "rule": "The empty, coloured #1-#3 slots stay visible from the start: a built-in 'what will be #1?' open loop that keeps people watching to the end.",
+    "basis": "inferred",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "pC-YhohIz20",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GyD9EScGnbQ",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "zw6ugKBs3rM",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": []
+   },
+   {
+    "rule": "Labels accumulate: earlier labels stay on screen, so the list builds into a mini recap of the jokes so far.",
+    "basis": "observed",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "pC-YhohIz20",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GyD9EScGnbQ",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "zw6ugKBs3rM",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": []
+   },
+   {
+    "rule": "Escalation ladder: lower ranks are single small mishaps; middle ranks are bigger launches or folds; #2 and #1 are the largest impact or scare.",
+    "basis": "inferred",
+    "support_video_ids": [
+     "pC-YhohIz20",
+     "GyD9EScGnbQ",
+     "HSQ33Rl3nqA",
+     "Dx_Hc7m8n08",
+     "Yd4rZBecs3U",
+     "JohsrvlOuhA",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": [
+     "HSGNOINpHgk #1 is a calm mantis, not the biggest crash",
+     "GyD9EScGnbQ #1 is the one clean removal after chaotic ones",
+     "t4hPHmGEqco #1 is a toddler bumped by an inflatable, smaller than #5 launch"
+    ]
+   },
+   {
+    "rule": "What earns #1 (the twist): (a) biggest single impact/scare (HSQ33Rl3nqA tarp, Dx_Hc7m8n08 traffic cone, Yd4rZBecs3U grin close-up, pC-YhohIz20 merry-go-round group fling); (b) a format break that recontextualises the list (HSGNOINpHgk mantis, GyD9EScGnbQ clean removal, GbDgCzsjvqQ the save); (c) an 'impossible' skill or glitch moment framed as admiration (JohsrvlOuhA Spider-Man, zw6ugKBs3rM Noclip, r9xvl94-_z4 Iconic); (d) a cute-victim contrast (t4hPHmGEqco toddler).",
+    "basis": "inferred",
+    "support_video_ids": [
+     "HSQ33Rl3nqA",
+     "Dx_Hc7m8n08",
+     "Yd4rZBecs3U",
+     "pC-YhohIz20",
+     "HSGNOINpHgk",
+     "GyD9EScGnbQ",
+     "GbDgCzsjvqQ",
+     "JohsrvlOuhA",
+     "zw6ugKBs3rM",
+     "r9xvl94-_z4",
+     "t4hPHmGEqco"
+    ],
+    "counterexamples": [
+     "fosJO6N-NMo #1 'It was Red': reason unknown"
+    ]
+   },
+   {
+    "rule": "The #1 label often flips tone from mockery to mock-admiration (cool or praise emoji: sunglasses, fire, relieved face, pleading face).",
+    "basis": "inferred",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "GbDgCzsjvqQ",
+     "zw6ugKBs3rM",
+     "HSGNOINpHgk",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": [
+     "pC-YhohIz20, GyD9EScGnbQ, Yd4rZBecs3U, Dx_Hc7m8n08 end on skull-style #1 labels"
+    ]
+   },
+   {
+    "rule": "The #1 clip is usually not the longest; only about 3 videos make #1 clearly the longest.",
+    "basis": "observed",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "HSGNOINpHgk"
+    ],
+    "counterexamples": [
+     "GbDgCzsjvqQ #4 (~7.8s) longer than #1",
+     "Dx_Hc7m8n08 #6 about equal",
+     "pC-YhohIz20, t4hPHmGEqco, zw6ugKBs3rM, GyD9EScGnbQ #1 ~2.3-2.7s"
+    ]
+   },
+   {
+    "rule": "No narration or voice-over; the story is carried only by order, labels, and source-clip audio.",
+    "basis": "observed",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "pC-YhohIz20",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GyD9EScGnbQ",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "zw6ugKBs3rM",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": []
+   },
+   {
+    "rule": "Occasional inserted gag that literalises a label or the topic: Netflix logo after 'Netflix' (t4hPHmGEqco 14.6-15.7s), chicken reaction cutaway after #3/#2/#1 (pC-YhohIz20).",
+    "basis": "observed",
+    "support_video_ids": [
+     "t4hPHmGEqco",
+     "pC-YhohIz20"
+    ],
+    "counterexamples": [
+     "the other 10 show no such insert"
+    ]
+   }
+  ],
+  "confirmed_override": {
+   "order": "shuffled, not countdown; start mid-rank at 0s, mix lower/mid ranks, always end 2 -> 1 (reference 4-3-5-6-2-1)",
+   "basis": "user feedback 2026-11-11 (departs from the channel 6->1 countdown on purpose)"
+  }
+ },
+ "narrative_recipes": [
+  {
+   "name": "Nickname ladder with admiration twist",
+   "input_conditions": "6 clips of one situation, each with one clear event; at least one clip with an 'impossible' or stylish moment.",
+   "setup": "Cold open on the weakest mishap; list with empty coloured slots appears ~1s.",
+   "progression": "Small mishap -> launches/folds -> biggest crash at #2; labels alternate literal, understatement and character nicknames.",
+   "line_roles": "Each label reframes its clip as a character, object or game event; earlier labels stay as a running joke list.",
+   "screen_rules": "Persistent 2-line title, left list, label at clip start, one emoji, hard cuts.",
+   "payoff": "#1 is the stylish or impossible moment with a praise nickname (Next Spider-Man, Noclip, That save, Iconic, Aura farming) and a cool emoji.",
+   "exclusions": "Clips with real injury; clips needing speech to understand.",
+   "support": [
+    "JohsrvlOuhA",
+    "zw6ugKBs3rM",
+    "GbDgCzsjvqQ",
+    "r9xvl94-_z4",
+    "HSGNOINpHgk"
+   ],
+   "counterexamples": [
+    "pC-YhohIz20",
+    "GyD9EScGnbQ",
+    "Dx_Hc7m8n08",
+    "Yd4rZBecs3U end on skull-type #1"
+   ]
+  },
+  {
+   "name": "Escalation to the biggest hit",
+   "input_conditions": "Clips that differ clearly in size of impact or scare.",
+   "setup": "Mildest clip first under a deadpan or literal label.",
+   "progression": "Each rank bigger than the last; vine boom on 1-2 mid-rank impacts.",
+   "line_roles": "Understatement for lower ranks (Went for a walk, Humbled), stronger name for top.",
+   "screen_rules": "Same template; scare videos may use black frames from the source.",
+   "payoff": "#1 = largest physical hit or scare reveal with a big-name or death label (Captain Jack Sparrow, Traffic cone, R.I.P).",
+   "exclusions": "No outro after #1.",
+   "support": [
+    "HSQ33Rl3nqA",
+    "Dx_Hc7m8n08",
+    "Yd4rZBecs3U",
+    "pC-YhohIz20"
+   ],
+   "counterexamples": [
+    "t4hPHmGEqco #1 smaller than #5"
+   ]
+  },
+  {
+   "name": "Percentage meter",
+   "input_conditions": "Similar clips where intensity or satisfaction is the joke (screams, nest removals).",
+   "setup": "Lowest percent (10-15%) with skull or cool emoji.",
+   "progression": "Rising percents, e.g. 15/30/45/67/85/100.",
+   "line_roles": "Numbers only + one emoji; the emoji carries the tone.",
+   "screen_rules": "Same template; optional recurring topic cutaway (chicken).",
+   "payoff": "#1 = 100% with skull; the clip is the most extreme or the cleanest (GyD9EScGnbQ).",
+   "exclusions": "Do not mix nickname labels into a percent video.",
+   "support": [
+    "pC-YhohIz20",
+    "GyD9EScGnbQ"
+   ],
+   "counterexamples": []
+  },
+  {
+   "name": "Format-break #1",
+   "input_conditions": "One clip that breaks the pattern (animal, controlled success, toddler) among 5 fails.",
+   "setup": "Five ordinary fails with mixed labels.",
+   "progression": "Normal escalation up to #2.",
+   "line_roles": "#1 label names the break with a meme or game term (Aura farming mantis, Critical hit, 100%).",
+   "screen_rules": "Same template; #1 may be longest (HSGNOINpHgk ~6.3s).",
+   "payoff": "Surprise that the winner is not the worst fall.",
+   "exclusions": "Do not use if the break clip is not funny on its own.",
+   "support": [
+    "HSGNOINpHgk",
+    "GyD9EScGnbQ",
+    "t4hPHmGEqco"
+   ],
+   "counterexamples": []
+  }
+ ],
+ "label_writing": {
+  "types": [
+   {
+    "type": "pop-culture / game / meme nickname (calls the person a character or game event)",
+    "count_videos": 9,
+    "examples": [
+     "Next Spider-Man",
+     "Thor",
+     "Captain Jack Sparrow",
+     "Prop hunt",
+     "Titanic",
+     "MJ",
+     "HEE HEE",
+     "Batman",
+     "Netflix",
+     "Mega Knight",
+     "Critical hit",
+     "Mario",
+     "Aura farming mantis",
+     "Jurassic Park",
+     "Spinjitzu",
+     "Noclip",
+     "Elder Mimic"
+    ],
+    "when_to_use": "When the body pose or motion visibly resembles a well-known character, film scene, or game mechanic; strongest for #1 and #2."
+   },
+   {
+    "type": "literal action nickname (names the shape or result)",
+    "count_videos": 9,
+    "examples": [
+     "Folded",
+     "Direct hit",
+     "Lift-off",
+     "Helicopter",
+     "Flew away",
+     "Mechanic",
+     "Back breaker",
+     "Broke him in half",
+     "Had him in splits",
+     "Straight through the floor",
+     "His head fell off-",
+     "Traffic cone",
+     "Perfect aim"
+    ],
+    "when_to_use": "When the event has one clear shape (folding, launching, spinning, ending under a car). 'Folded' recurs in 4 videos (JohsrvlOuhA, t4hPHmGEqco, zw6ugKBs3rM, r9xvl94-_z4)."
+   },
+   {
+    "type": "understatement / irony",
+    "count_videos": 5,
+    "examples": [
+     "He's okay",
+     "Very soft",
+     "Went for a walk",
+     "Time to go home",
+     "Failed successfully",
+     "Humbled",
+     "No chips for you",
+     "Visibly shocked"
+    ],
+    "when_to_use": "When the fall is harsh but harmless; the deadpan line contradicts or shrinks what we see."
+   },
+   {
+    "type": "reaction / sound word",
+    "count_videos": 5,
+    "examples": [
+     "Ouch",
+     "Nope",
+     "Vroom vroom",
+     "That sound",
+     "R.I.P",
+     "Iconic",
+     "Bro hit",
+     "That save"
+    ],
+    "when_to_use": "When the joke is the audio or the viewer's own reaction; good for scare and sport clips."
+   },
+   {
+    "type": "'Cartoon ahh X' slang",
+    "count_videos": 2,
+    "examples": [
+     "Cartoon ahh slip",
+     "Cartoon ahh splat"
+    ],
+    "when_to_use": "When a fall looks like a cartoon gag (limbs flailing, flat splat)."
+   },
+   {
+    "type": "percentage scale",
+    "count_videos": 2,
+    "examples": [
+     "10% 20% 40% 67% 85% 100% (pC-YhohIz20)",
+     "15% 30% 45% 67% 85% 100% (GyD9EScGnbQ)"
+    ],
+    "when_to_use": "When the clips are similar and the joke is intensity or satisfaction; whole video uses only percentages, ending at 100% on #1."
+   }
+  ],
+  "rules": [
+   {
+    "rule": "1-4 words, English, sentence case, no punctuation except rare dash/period.",
+    "basis": "observed",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "zw6ugKBs3rM",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": [
+     "HEE HEE all caps",
+     "R.I.P",
+     "His head fell off-"
+    ]
+   },
+   {
+    "rule": "The label names a reading of the clip, not a description of it: it tells the viewer how to see the event (as a character, an object, a game event), so it works as the punchline.",
+    "basis": "inferred",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "zw6ugKBs3rM",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": [
+     "percent videos pC-YhohIz20, GyD9EScGnbQ",
+     "plain 'Ouch'"
+    ]
+   },
+   {
+    "rule": "Usually one trailing emoji; skull is the most common; cool/fire/relieved emojis tend to appear on #1.",
+    "basis": "observed",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "pC-YhohIz20",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GyD9EScGnbQ",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "zw6ugKBs3rM",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": [
+     "no emoji: Loyal Skates, Broke him in half, Had him in splits, His head fell off-, Straight through the floor, HEE HEE"
+    ]
+   },
+   {
+    "rule": "Mix label types inside one video (except percent videos); no video uses one type for all 6 nickname labels.",
+    "basis": "observed",
+    "support_video_ids": [
+     "JohsrvlOuhA",
+     "fosJO6N-NMo",
+     "HSQ33Rl3nqA",
+     "GbDgCzsjvqQ",
+     "t4hPHmGEqco",
+     "HSGNOINpHgk",
+     "Dx_Hc7m8n08",
+     "zw6ugKBs3rM",
+     "Yd4rZBecs3U",
+     "r9xvl94-_z4"
+    ],
+    "counterexamples": [
+     "pC-YhohIz20, GyD9EScGnbQ all percent"
+    ]
+   },
+   {
+    "rule": "Percent ladders rise monotonically and end at exactly 100% on #1; middle values 67% and 85% repeat across both percent videos.",
+    "basis": "observed",
+    "support_video_ids": [
+     "pC-YhohIz20",
+     "GyD9EScGnbQ"
+    ],
+    "counterexamples": []
+   }
+  ],
+  "counterexamples": [
+   "JohsrvlOuhA #5 label is emoji-only (text unknown)",
+   "fosJO6N-NMo #1 'It was Red' meaning unknown",
+   "Dx_Hc7m8n08 #2 'Hit the [emoji] instead' unreadable",
+   "GbDgCzsjvqQ #2 label changes from 'ahh slip' to 'Cartoon ahh slip' mid-clip (typed-in reveal)"
+  ]
+ },
+ "titles": {
+  "upload_title_rule": {
+   "rule": "'Ranking {Adjective} {Topic} {Moments|Fails|Challenge|Removal|Scream}' + optional 'Ever' + one emoji. Emoji: crying 7, laughing 4, skull 1. Adjective: Funniest 5, Best 5, Satisfying 1, Craziest 1.",
+   "basis": "observed",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "pC-YhohIz20",
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GyD9EScGnbQ",
+    "GbDgCzsjvqQ",
+    "t4hPHmGEqco",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "zw6ugKBs3rM",
+    "Yd4rZBecs3U",
+    "r9xvl94-_z4"
+   ],
+   "counterexamples": [
+    "final noun: Moments 6, Fails 3, Challenge/Removal/Scream 1 each"
+   ]
+  },
+  "on_screen_title_rule": {
+   "rule": "Same words as the upload title, no emoji and no 'Ever', split into 2 centered lines: line1 'Ranking'(white) + adjective(yellow); line2 topic keyword(blue, may be 2 words) + category noun(white). Bold with black outline, on for the whole video.",
+   "basis": "observed",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "pC-YhohIz20",
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GyD9EScGnbQ",
+    "GbDgCzsjvqQ",
+    "t4hPHmGEqco",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "zw6ugKBs3rM",
+    "Yd4rZBecs3U",
+    "r9xvl94-_z4"
+   ],
+   "counterexamples": [
+    "pC-YhohIz20 line2 'Chicken Scream': Chicken blue, Scream white (no category noun)"
+   ]
+  },
+  "layout_measured_640": {
+   "title_line1_y": [
+    63,
+    76
+   ],
+   "title_line2_y": [
+    91,
+    104
+   ],
+   "video_band_y": [
+    113,
+    593
+   ],
+   "list_x": 29,
+   "label_x": 47,
+   "row_y_centers_6": [
+    205,
+    262,
+    320,
+    378,
+    436,
+    494
+   ],
+   "credit_y": 544,
+   "watermark_y": 557,
+   "colors": {
+    "yellow": [
+     237,
+     250,
+     21
+    ],
+    "blue": [
+     8,
+     117,
+     233
+    ],
+    "num1": [
+     212,
+     236,
+     44
+    ],
+    "num2": [
+     25,
+     122,
+     199
+    ],
+    "num3": [
+     210,
+     2,
+     38
+    ]
+   },
+   "basis": "observed",
+   "note": "fonts unidentified; Pretendard used as substitute"
+  }
+ },
+ "writing": {
+  "prompt": "writer-prompt.txt",
+  "prompt_sha256": "0005a2fca44da18d00bcd516c1e84954ce963cb17bef308a362dbc72a8977ba8",
+  "language": "ja",
+  "meaning_language": "ko",
+  "label_length": "2-8 Japanese chars + 1 emoji",
+  "title": "2 lines, <=9 chars each at 100px",
+  "superseded": "writer-prompt.ko-draft.txt (Korean analysis draft)"
+ },
+ "edit": {
+  "label_on_clip_start": {
+   "rule": "Each label appears at or shortly after its clip starts (typically 0.1-1.5s), while the event is still to come; the label primes the joke before the payoff.",
+   "basis": "observed",
+   "support_video_ids": [
+    "pC-YhohIz20",
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GbDgCzsjvqQ",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "r9xvl94-_z4",
+    "JohsrvlOuhA",
+    "t4hPHmGEqco",
+    "GyD9EScGnbQ"
+   ],
+   "counterexamples": [
+    "JohsrvlOuhA #5 ~2.1s late",
+    "zw6ugKBs3rM #7 3.1s",
+    "Yd4rZBecs3U #4 ~1.6s late",
+    "sampling is ~1s so values are +/-1s"
+   ]
+  },
+  "clip_length": {
+   "rule": "Clips ~2.3-7.8s, most 3-5s. Even-interval ladder in some videos (fosJO6N-NMo, HSQ33Rl3nqA about every 3-4s).",
+   "basis": "observed",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "pC-YhohIz20",
+    "fosJO6N-NMo",
+    "HSQ33Rl3nqA",
+    "GyD9EScGnbQ",
+    "GbDgCzsjvqQ",
+    "t4hPHmGEqco",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "zw6ugKBs3rM",
+    "Yd4rZBecs3U",
+    "r9xvl94-_z4"
+   ],
+   "counterexamples": [
+    "GbDgCzsjvqQ #4 ~7.8s"
+   ]
+  },
+  "cuts": {
+   "rule": "Hard cuts between clips; no rank-number transition card. Rare flash/radial effects of unknown origin.",
+   "basis": "observed",
+   "support_video_ids": [
+    "JohsrvlOuhA",
+    "HSQ33Rl3nqA",
+    "GbDgCzsjvqQ",
+    "HSGNOINpHgk",
+    "Dx_Hc7m8n08",
+    "Yd4rZBecs3U"
+   ],
+   "counterexamples": [
+    "fosJO6N-NMo white flash 2.97s",
+    "r9xvl94-_z4 blue radial flash 6.5s",
+    "zw6ugKBs3rM speed lines 16.5-17.5s and black frame 6.2s"
+   ]
+  }
+ },
+ "audio": {
+  "sound_profile": "sound-profile.json",
+  "sound_profile_sha256": "f7278461fa4ae7d5254ed225829e7481b264e84926329611db82c720a6f890bf",
+  "rules": {
+   "channel": {
+    "vine_boom": {
+     "rule": "Myinstants 'VINE BOOM SOUND' (waveform match only, not ear-checked) on the impact or scare-reveal frame inside a lower-ranked clip, 0-4 per video (usually 1-2), never on the #1 clip in this sample, never on label pop.",
+     "basis": "observed",
+     "support_video_ids": [
+      "GbDgCzsjvqQ",
+      "GyD9EScGnbQ",
+      "HSGNOINpHgk",
+      "r9xvl94-_z4",
+      "fosJO6N-NMo",
+      "Yd4rZBecs3U",
+      "zw6ugKBs3rM"
+     ],
+     "counterexamples": [
+      "5/12 have none: Dx_Hc7m8n08, HSQ33Rl3nqA, JohsrvlOuhA, pC-YhohIz20, t4hPHmGEqco",
+      "GbDgCzsjvqQ stacks 3 hits in one clip (#6, 1.14/2.24/3.01s)"
+     ]
+    },
+    "level": {
+     "rule": "Mixed near full file level: gain vs file -2.9 to +0.6 dB (12 hits), one at -5.8 dB (fosJO6N-NMo); mix RMS about -4 to -7 dBFS, typically 3-13 dB above the previous 2s, so the boom clearly sits over the clip audio.",
+     "basis": "observed",
+     "support_video_ids": [
+      "GbDgCzsjvqQ",
+      "GyD9EScGnbQ",
+      "HSGNOINpHgk",
+      "r9xvl94-_z4",
+      "fosJO6N-NMo",
+      "Yd4rZBecs3U",
+      "zw6ugKBs3rM"
+     ],
+     "counterexamples": [
+      "GbDgCzsjvqQ 3.006s mix -6.7 is below previous 2s -5.4"
+     ]
+    },
+    "other_sfx": {
+     "rule": "Second shared sound pC-YhohIz20 2.6s / GyD9EScGnbQ 8.76s (r 0.85) in 2 videos only; unidentified, not a channel rule. No other repeated SFX verified. Background music presence unknown.",
+     "basis": "unknown",
+     "support_video_ids": [
+      "pC-YhohIz20",
+      "GyD9EScGnbQ"
+     ],
+     "counterexamples": []
+    }
+   },
+   "confirmed": {
+    "vine_boom": "0-2 lower/mid rank impact frames, never #1, trim 0.086s, 0.5s, -3 dB via channel mixer",
+    "faaah": "0.6s ending at every rank change, trim 0.2s, 0 dB, original ducked -6 dB under it (user-confirmed, not a channel sound)",
+    "master": "-2 dB + limiter 0.89"
+   }
+  },
+  "narration": null,
+  "music": "unknown",
+  "original_audio": "kept (all 12 samples carry clip audio; ASR shows original speech)",
+  "user_confirmed_non_channel_sounds": [
+   {
+    "id": "faaah",
+    "page_url": "https://www.myinstants.com/ko/instant/faaah-63455/",
+    "file": "sound-analysis/assets/faaah/c2d10b90385d26fa.mp3",
+    "sha256": "c8b03ff0adacaf75b504b46e505f70af70a76d234cedaeb80eef9ee7ef6d909a",
+    "rights_status": "unknown",
+    "audition_status": "listened_by_user_2026-11-11"
+   }
+  ]
+ },
+ "layout": {
+  "file": "layout.json",
+  "sha256": "d709e47a6fd3e9c35775e6a340df7aa94a6c8637679edd552015086f00451e57",
+  "source": "production/layout_ja_v2.json",
+  "confirmed": {
+   "title": "Yu Gothic Bold 100px, stroke 5, centers y 158/272",
+   "list": "top-left x 40, rows y 400-800 at 80px pitch, label_dx 68",
+   "past_labels": "labels+emoji of earlier ranks at 40% opacity; numbers always opaque"
+  },
+  "renderer": "production/render_ranking.py",
+  "renderer_sha256": "b330c44b146010985401f9a867f5cf988966cbf7e40d39ed34eec730c9bdaa6f",
+  "driver": "production/produce_random_ranking.py",
+  "driver_sha256": "67a2b2658719cd01203fbc3a7d3b5e0e34a83492140a5bc77fd661d842c5b9a2",
+  "engines": {
+   "mp4_custom_ffmpeg": "implemented",
+   "cpb render_preview": "not used (narration-centric)",
+   "capcut": "not implemented"
+  }
+ },
+ "korean_adaptation_proposed": "superseded by Japanese confirmed version (kept in preset.analysis_draft.json)",
+ "runtime": {
+  "host": "Claude desktop Code tab session (claude-opus-5-5)",
+  "observers": "native subagents (sonnet)",
+  "synthesizer": "native subagent (opus)",
+  "writer": "native subagent (sonnet)",
+  "claude_cli_pipeline": "not used (nested CLI forbidden by project rules; CLI not logged in)",
+  "gemini_calls": "none used in this run; custom renderer has no Gemini path (shochi engines not invoked)",
+  "cost": "subscription session; per-call cost not metered"
+ },
+ "validation": {
+  "test_production": {
+   "source": "%USERPROFILE%/Desktop/snaptik_7671195624213056798_v3.mp4",
+   "output": "production/snaptik_7671195624213056798/render_ja_v2/preview.mp4",
+   "duration_s": 20.5,
+   "frames_checked": "start/impact/end of all 6 clips (review-frames.jpg); blackdetect: none",
+   "sfx_checked": "waveform presence by code (boom 2, FAAAH 5); user listened 2026-11-11 (listen-check.wav): all OK",
+   "mismatch": [
+    "boom level about -18 dBFS vs channel -4 to -7 dBFS (mixer caps gain at -3 dB and lowers further)",
+    "reference font unidentified; Pretendard substitutes",
+    "output 20.1s vs channel 22-33s"
+   ],
+   "independent_review": "tasks/review (sonnet): ship_as_draft; 3 issues applied in v2, 1 rejected with evidence, rest noted",
+   "user_review": "feedback round 1 (ja, title 100, FAAAH, order 4-3-5-6-2-1) and round 2 (dim past labels, top-left list) applied; user confirmed 2026-11-11",
+   "capcut_open": "not applicable (MP4 only)"
+  }
+ }
+}
